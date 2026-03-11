@@ -1,6 +1,6 @@
 # ✈️ Travel Flow — Journey Beyond the Horizon
 
-> 🌊 Albania's most extra travel platform. Yes, really.
+> 🌊 Albania's most extra travel platform. Yes really.
 
 **Book** a bus seat · **Track** it live on a map · **Rent** a car · **Explore** the Riviera
 
