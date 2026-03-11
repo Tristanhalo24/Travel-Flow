@@ -12,10 +12,6 @@ You ever tried to book a bus in Albania? It's usually... an adventure.
 
 Travel Flow fixes that. It's a full travel platform for the Albanian Riviera — book a seat, track your bus live on a map, rent a car and drive those insane coastal roads yourself, or just browse destinations until you're ready to quit your job and move there.
 
-The wild part? **It's one single HTML file.** No backend. No npm. No Docker. No cloud bill. Just open it and it works. 🧙
-
-> Built with love, vanilla JS, and an unhealthy obsession with Albanian road coordinates.
-
 ---
 
 ## 🔥 Features
