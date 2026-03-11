@@ -86,8 +86,8 @@ The full Tiranë → Sarandë route hits:
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/your-username/twista.git
-cd twista
+git clone https://github.com/your-username/travelflow.git
+cd travelflow
 open index.html
 ```
 
