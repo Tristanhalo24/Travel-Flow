@@ -189,7 +189,7 @@ index.html
 
 ## 🔮 Roadmap
 
-- [ ] Real database — Firebase Firestore or PostgreSQL
+- [ ] Real database — MYSQL
 - [ ] Backend API — Node.js / Express or Python / Flask
 - [ ] Real payments — Stripe integration
 - [ ] Email tickets — PDF on booking confirmation
