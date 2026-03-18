@@ -31,7 +31,7 @@ Travel Flow fixes that. It's a full travel platform for the Albanian Riviera —
 - Progress bar showing % of route completed
 
 ### 🚗 Car Rental
-- 5 cars: Economy, Compact, SUV, Luxury, Off-Road
+- 12 cars: Economy, Compact, SUV, Luxury, Off-Road
 - All cars GPS-tracked on the admin map
 - Rented cars actually start driving around Albania
 - Car auto-drives itself back to base when rental ends 🤯
@@ -79,27 +79,6 @@ The full Tiranë → Sarandë route hits:
 
 ---
 
-## 🚀 Quick Start
-
-```bash
-git clone https://github.com/your-username/travelflow.git
-cd travelflow
-open index.html
-```
-
-That's it. No `npm install`. No `pip install`. No `docker-compose up`. Just a file in a browser.
-
-### 🔑 Demo Accounts
-
-| Role | Email | Password |
-|---|---|---|
-| 🔴 Admin | admin@travelflow.al | admin123 |
-| 🔵 User | arben@test.al | test123 |
-
-> **Tip:** Login as admin first — the Cars GPS section alone is worth it.
-
----
-
 ## 🛰️ How the GPS Engine Actually Works
 
 Most "live tracking" demos just ping between two points in a straight line and call it a day. That felt wrong.
@@ -113,50 +92,9 @@ Travel Flow uses **cumulative distance interpolation**:
 **Result:** vehicles follow actual road curves, hug the coastline, and navigate every mountain switchback correctly.
 
 - 🚌 **6 buses** — each on its own route, bouncing end to end with pause time at terminals
-- 🚗 **5 cars** — roam 9 different routes across Albania; when rented they start driving, when the rental expires they drive themselves home 🏠
+- 🚗 **12 cars** — roam 9 different routes across Albania; when rented they start driving, when the rental expires they drive themselves home 🏠
 
 > Base: **New Regional Bus Terminal, Kashar, Tiranë** — `41.33319°N, 19.80291°E`
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | What it does |
-|---|---|
-| Vanilla JS (ES6+) | All app logic, GPS engine, routing |
-| CSS3 Custom Properties | Dark theme, animations, responsive layout |
-| Leaflet.js 1.9.4 | Interactive maps |
-| OpenStreetMap | Map tiles — no Google Maps bill 🙏 |
-| Font Awesome 6.5 | Icons |
-| Google Fonts | Cormorant Garamond · DM Sans · Bebas Neue |
-| `localStorage` | Our "database" 😇 |
-
----
-
-## 🏗️ Code Structure
-
-Everything lives inside `index.html`:
-
-```
-index.html
-├── <style>         Dark navy theme, CSS vars, all component styles
-├── <body>          7 pages toggled by JS class switching
-│   ├── #page-home      Hero + routes + features + footer
-│   ├── #page-book      Search + trip cards + seat map + payment
-│   ├── #page-track     Live GPS sidebar + Leaflet map
-│   ├── #page-guide     Destination cards
-│   ├── #page-rental    Car grid + rental modal
-│   ├── #page-account   My bookings + my rentals
-│   └── #page-admin     Dashboard + 7 admin sections
-└── <script>
-    ├── ROUTE_DATA      6 routes with metadata
-    ├── WAYPOINTS       Hundreds of real GPS coordinates
-    ├── CAR_ROUTES      9 car routes across Albania
-    ├── DB              localStorage wrapper (get / set / seed)
-    ├── GPS             Position engine + Leaflet marker control
-    ├── Auth            Login / Register / Session
-    └── UI functions    Page render, modals, toasts, search
-```
 
 ---
 
@@ -195,21 +133,6 @@ index.html
 - [ ] More routes — Gjirokastër, Korçë, Shkodër
 - [ ] Bus operator app — separate dashboard for drivers
 - [ ] Reviews & ratings — let passengers rate the ride
-
----
-
----
-
-## ✍️ Author
-
-**Travel Flow Team** · Tiranë, Shqipëri 🇦🇱  
-📧 info@travelflow.al
-
-Made with ❤️ and an unreasonable amount of ☕  
-*Powered by the dream that Albanian bus travel can be good, actually.*
-
-If this helped you or made you smile, leave a ⭐ on GitHub.  
-If you found a bug, open an issue — or just blame the hairpin turns.
 
 ---
 
