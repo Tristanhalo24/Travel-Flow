@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="dtmBqT6QJvkYmSnDjM9w" name="Page-4">
+    <mxGraphModel dx="1360" dy="825" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tbl_title" parent="1" style="text;html=1;strokeColor=#1B3A6B;fillColor=#1B3A6B;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#FFFFFF;fontSize=15;fontStyle=1;" value="USE CASE SPECIFICATION TABLE  —  Course Registration System" vertex="1">
+          <mxGeometry height="44" width="1195" x="99" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="h0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1B3A6B;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="UC ID" vertex="1">
+          <mxGeometry height="40" width="75" x="99" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1B3A6B;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="Use Case Name" vertex="1">
+          <mxGeometry height="40" width="185" x="174" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1B3A6B;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="Actors" vertex="1">
+          <mxGeometry height="40" width="155" x="359" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1B3A6B;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="Summary" vertex="1">
+          <mxGeometry height="40" width="320" x="514" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="h4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1B3A6B;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="Preconditions" vertex="1">
+          <mxGeometry height="40" width="230" x="834" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="h5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1B3A6B;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="Post-conditions" vertex="1">
+          <mxGeometry height="40" width="230" x="1064" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E6DB4;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" value="UC01" vertex="1">
+          <mxGeometry height="90" width="75" x="99" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Register for Courses" vertex="1">
+          <mxGeometry height="90" width="185" x="174" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Student (Primary)&#xa;Billing System (Secondary)" vertex="1">
+          <mxGeometry height="90" width="155" x="359" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Student selects up to 4 course offerings for the coming semester. Upon completion, the system sends billing information to the Billing System." vertex="1">
+          <mxGeometry height="90" width="320" x="514" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Student account exists&#xa;• Course catalog is available&#xa;• Registration period is open" vertex="1">
+          <mxGeometry height="90" width="230" x="834" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Student enrolled in selected courses&#xa;• Billing system is notified" vertex="1">
+          <mxGeometry height="90" width="230" x="1064" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E6DB4;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" value="UC02" vertex="1">
+          <mxGeometry height="90" width="75" x="99" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Select Courses to Teach" vertex="1">
+          <mxGeometry height="90" width="185" x="174" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Professor (Primary)" vertex="1">
+          <mxGeometry height="90" width="155" x="359" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Professor accesses the system online to indicate which courses they will teach for the upcoming semester." vertex="1">
+          <mxGeometry height="90" width="320" x="514" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Professor account exists&#xa;• Course catalog is published&#xa;• Semester schedule is set" vertex="1">
+          <mxGeometry height="90" width="230" x="834" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Courses are assigned to professor&#xa;• Assignment is recorded in system" vertex="1">
+          <mxGeometry height="90" width="230" x="1064" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E6DB4;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" value="UC03" vertex="1">
+          <mxGeometry height="90" width="75" x="99" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Request Course Roster" vertex="1">
+          <mxGeometry height="90" width="185" x="174" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Professor (Primary)" vertex="1">
+          <mxGeometry height="90" width="155" x="359" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Professor requests and views the list of students registered in their assigned courses for the semester." vertex="1">
+          <mxGeometry height="90" width="320" x="514" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Professor is authenticated&#xa;• Course is assigned to professor&#xa;• Students have registered" vertex="1">
+          <mxGeometry height="90" width="230" x="834" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Course roster is displayed&#xa;• Professor sees student details" vertex="1">
+          <mxGeometry height="90" width="230" x="1064" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E6DB4;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" value="UC04" vertex="1">
+          <mxGeometry height="90" width="75" x="99" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Maintain Course Information" vertex="1">
+          <mxGeometry height="90" width="185" x="174" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Registrar (Primary)" vertex="1">
+          <mxGeometry height="90" width="155" x="359" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Registrar creates, updates, or removes course records, including name, credits, prerequisites, schedule, and capacity." vertex="1">
+          <mxGeometry height="90" width="320" x="514" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Registrar is logged in&#xa;• Admin privileges granted&#xa;• Semester data is initialized" vertex="1">
+          <mxGeometry height="90" width="230" x="834" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Course data updated in system&#xa;• Changes visible in catalog" vertex="1">
+          <mxGeometry height="90" width="230" x="1064" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E6DB4;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" value="UC05" vertex="1">
+          <mxGeometry height="90" width="75" x="99" y="514" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Maintain Professor Information" vertex="1">
+          <mxGeometry height="90" width="185" x="174" y="514" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Registrar (Primary)" vertex="1">
+          <mxGeometry height="90" width="155" x="359" y="514" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Registrar manages professor records including contact details, qualifications, and department assignments." vertex="1">
+          <mxGeometry height="90" width="320" x="514" y="514" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Registrar is logged in&#xa;• Admin privileges granted" vertex="1">
+          <mxGeometry height="90" width="230" x="834" y="514" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Professor records are current&#xa;• System reflects updated info" vertex="1">
+          <mxGeometry height="90" width="230" x="1064" y="514" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E6DB4;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" value="UC06" vertex="1">
+          <mxGeometry height="90" width="75" x="99" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Maintain Student Information" vertex="1">
+          <mxGeometry height="90" width="185" x="174" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Registrar (Primary)" vertex="1">
+          <mxGeometry height="90" width="155" x="359" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Registrar manages student records, academic history, enrolment status, and personal information." vertex="1">
+          <mxGeometry height="90" width="320" x="514" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Registrar is logged in&#xa;• Admin privileges granted" vertex="1">
+          <mxGeometry height="90" width="230" x="834" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Student records are updated&#xa;• Academic history is current" vertex="1">
+          <mxGeometry height="90" width="230" x="1064" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="r7c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E6DB4;fontColor=#ffffff;strokeColor=#8097B1;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" value="UC07" vertex="1">
+          <mxGeometry height="90" width="75" x="99" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="r7c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Create Course Catalog" vertex="1">
+          <mxGeometry height="90" width="185" x="174" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="r7c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Registrar (Primary)" vertex="1">
+          <mxGeometry height="90" width="155" x="359" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="r7c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="Registrar generates the semester course catalog containing all course offerings, professor info, departments, credits, and prerequisites." vertex="1">
+          <mxGeometry height="90" width="320" x="514" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="r7c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Course and professor data are up to date&#xa;• New semester period is configured" vertex="1">
+          <mxGeometry height="90" width="230" x="834" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="r7c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FB;fontColor=#1B3A6B;strokeColor=#8097B1;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;" value="• Catalog is published&#xa;• Available for student review" vertex="1">
+          <mxGeometry height="90" width="230" x="1064" y="694" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
