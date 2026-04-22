@@ -1,754 +1,590 @@
-<mxfile host="app.diagrams.net" pages="3">
-  <diagram name="Page-1" id="J34FS7xy6WLLqGS_EpLQ">
-    <mxGraphModel dx="3872" dy="1833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="legend_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;verticalAlign=top;" value="LEGEND" vertex="1">
-          <mxGeometry height="160" width="380" x="20" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="leg_start" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=general;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;" value="Start Event" vertex="1">
-          <mxGeometry height="36" width="36" x="40" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="leg_end" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=terminate;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#000000;strokeColor=#000000;fontColor=#000000;" value="End Event" vertex="1">
-          <mxGeometry height="36" width="36" x="120" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="leg_err" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" value="Error End" vertex="1">
-          <mxGeometry height="36" width="36" x="200" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="leg_gw" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;" value="Excl. GW" vertex="1">
-          <mxGeometry height="46" width="46" x="275" y="55" as="geometry" />
-        </mxCell>
-        <mxCell id="leg_par" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=parallelGw;verticalLabelPosition=bottom;verticalAlign=top;" value="Parallel GW" vertex="1">
-          <mxGeometry height="46" width="46" x="345" y="55" as="geometry" />
-        </mxCell>
-        <mxCell id="leg_utask" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;" value="User Task" vertex="1">
-          <mxGeometry height="36" width="90" x="40" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="leg_stask" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" value="Service Task" vertex="1">
-          <mxGeometry height="36" width="90" x="148" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="leg_ptask" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Payment Task" vertex="1">
-          <mxGeometry height="36" width="90" x="256" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="p1_frame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;strokeWidth=3;" value="" vertex="1">
-          <mxGeometry height="640" width="2400" x="20" y="220" as="geometry" />
-        </mxCell>
-        <mxCell id="p1_title" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=13;" value="POOL: TICKET BOOKING PROCESS" vertex="1">
-          <mxGeometry height="640" width="30" x="20" y="220" as="geometry" />
-        </mxCell>
-        <mxCell id="p1_l1_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
-          <mxGeometry height="200" width="2370" x="50" y="220" as="geometry" />
-        </mxCell>
-        <mxCell id="p1_l1_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="Customer" vertex="1">
-          <mxGeometry height="200" width="30" x="50" y="220" as="geometry" />
-        </mxCell>
-        <mxCell id="p1_l2_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
-          <mxGeometry height="210" width="2370" x="50" y="420" as="geometry" />
-        </mxCell>
-        <mxCell id="p1_l2_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="TravelFlow System" vertex="1">
-          <mxGeometry height="210" width="30" x="50" y="420" as="geometry" />
-        </mxCell>
-        <mxCell id="p1_l3_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
-          <mxGeometry height="230" width="2370" x="50" y="630" as="geometry" />
-        </mxCell>
-        <mxCell id="p1_l3_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="Payment Gateway" vertex="1">
-          <mxGeometry height="230" width="30" x="50" y="630" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_start" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=general;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;" value="Start" vertex="1">
-          <mxGeometry height="40" width="40" x="105" y="300" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_task_login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Login / Register" vertex="1">
-          <mxGeometry height="50" width="130" x="310" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_task_search" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Search Trips&#xa;(City / Date)" vertex="1">
-          <mxGeometry height="50" width="130" x="615" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_task_trip" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Select Trip&#xa;(Time / Bus)" vertex="1">
-          <mxGeometry height="50" width="130" x="810" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_task_stop" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Select Destination&#xa;Stop &amp; Price" vertex="1">
-          <mxGeometry height="50" width="130" x="1010" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_task_pick" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Pick Specific Seat&#xa;(+200 ALL)" vertex="1">
-          <mxGeometry height="50" width="130" x="1325" y="265" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_task_random" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Random Seat&#xa;(Auto-assigned, Free)" vertex="1">
-          <mxGeometry height="50" width="130" x="1325" y="330" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_task_review" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Review Booking&#xa;Summary" vertex="1">
-          <mxGeometry height="50" width="130" x="1640" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_task_card" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Enter Card Details&#xa;(Visa / MC / Amex)" vertex="1">
-          <mxGeometry height="50" width="130" x="1845" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_task_ticket" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="View Confirmed&#xa;Ticket" vertex="1">
-          <mxGeometry height="50" width="130" x="2090" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_end" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=terminate;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#000000;strokeColor=#000000;fontColor=#000000;fontSize=10;" value="Booking&#xa;Complete" vertex="1">
-          <mxGeometry height="40" width="40" x="2295" y="300" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_svc_auth" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Validate User&#xa;Credentials (DB)" vertex="1">
-          <mxGeometry height="50" width="130" x="310" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_svc_trips" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Query Available&#xa;Trips (DB)" vertex="1">
-          <mxGeometry height="50" width="130" x="615" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_svc_stops" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Load Stop Options&#xa;&amp; Prices" vertex="1">
-          <mxGeometry height="50" width="130" x="810" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_svc_seats" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Check Seat&#xa;Availability on Bus" vertex="1">
-          <mxGeometry height="50" width="130" x="1010" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_svc_seatmap" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Render Bus Seat Map&#xa;(40 seats visual)" vertex="1">
-          <mxGeometry height="50" width="130" x="1325" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_svc_db" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Store Booking&#xa;Record in DB" vertex="1">
-          <mxGeometry height="50" width="130" x="2040" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_svc_email" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Send Ticket Email&#xa;(EmailJS + Barcode)" vertex="1">
-          <mxGeometry height="50" width="130" x="2220" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_end_fail" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="Payment&#xa;Failed" vertex="1">
-          <mxGeometry height="40" width="40" x="2340" y="700" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_int_retry" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Re-enter Card&#xa;Details" vertex="1">
-          <mxGeometry height="50" width="130" x="2230" y="780" as="geometry" />
-        </mxCell>
-        <mxCell id="sf01" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="125" y="320" as="sourcePoint" />
-            <mxPoint x="200" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf02" edge="1" parent="1" source="bk_gw_auth" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="bk_task_login" value="No">
-          <mxGeometry relative="1" x="0.0588" y="10" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf03" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;" value="Yes">
-          <mxGeometry relative="1" x="0.7455" y="10" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="230" y="320" as="sourcePoint" />
-            <mxPoint x="505" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf04" edge="1" parent="1" source="bk_task_login" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bk_svc_auth">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf05" edge="1" parent="1" source="bk_svc_auth" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="bk_gw_merge">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf06" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="547" y="319.89" as="sourcePoint" />
-            <mxPoint x="616" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf07" edge="1" parent="1" source="bk_task_search" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bk_svc_trips">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf08" edge="1" parent="1" source="bk_svc_trips" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="bk_task_trip">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf09" edge="1" parent="1" source="bk_task_trip" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bk_svc_stops">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf10" edge="1" parent="1" source="bk_svc_stops" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="bk_task_stop">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf11" edge="1" parent="1" source="bk_task_stop" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bk_svc_seats">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf12" edge="1" parent="1" source="bk_svc_seats" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_svc_seatmap">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1075" y="450" as="sourcePoint" />
-            <mxPoint x="1230" y="345" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf14" edge="1" parent="1" source="bk_gw_seat" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;exitX=0.989;exitY=0.491;exitDx=0;exitDy=0;exitPerimeter=0;" target="bk_task_pick" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1260" y="320" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf15" edge="1" parent="1" source="bk_gw_seat" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="bk_task_random" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1260" y="320" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf16" edge="1" parent="1" source="bk_task_pick" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=-0.006;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;" target="bk_gw_seat_merge">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf17" edge="1" parent="1" source="bk_task_random" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=-0.01;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;" target="bk_gw_seat_merge">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf18" edge="1" parent="1" source="bk_gw_seat_merge" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_task_review">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf19" edge="1" parent="1" source="bk_task_review" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_task_card">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf20" edge="1" parent="1" source="bk_task_card" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bk_pay_luhn">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf21" edge="1" parent="1" source="bk_pay_luhn" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_pay_proc">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf22" edge="1" parent="1" source="bk_pay_proc" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2230" y="720" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;" value="No">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2280" y="720" as="sourcePoint" />
-            <mxPoint x="2350" y="720" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf24" edge="1" parent="1" source="bk_gw_pay" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;exitX=0.5;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;" target="bk_int_retry" value="Retry">
-          <mxGeometry relative="1" x="-0.2202" y="3" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="2255" y="750" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf25" edge="1" parent="1" source="bk_int_retry" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=1;" target="bk_task_card">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1840" y="805" />
-              <mxPoint x="1840" y="370" />
-              <mxPoint x="1910" y="370" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf26" edge="1" parent="1" source="bk_gw_pay" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="bk_svc_code" value="Yes">
-          <mxGeometry relative="1" x="-0.0727" y="-10" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sf27" edge="1" parent="1" source="bk_svc_code" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_svc_db">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf28" edge="1" parent="1" source="bk_svc_db" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_svc_email">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf29" edge="1" parent="1" source="bk_svc_email" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="bk_task_ticket">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sf30" edge="1" parent="1" source="bk_task_ticket" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_end">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_frame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d6b656;strokeWidth=3;" value="" vertex="1">
-          <mxGeometry height="430" width="1700" x="20" y="940" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_title" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=13;" value="POOL: CAR RENTAL PROCESS" vertex="1">
-          <mxGeometry height="430" width="30" x="20" y="940" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_l1_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
-          <mxGeometry height="210" width="1670" x="50" y="940" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_l1_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="Customer" vertex="1">
-          <mxGeometry height="210" width="30" x="50" y="940" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_l2_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
-          <mxGeometry height="220" width="1670" x="50" y="1150" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_l2_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="TravelFlow System" vertex="1">
-          <mxGeometry height="220" width="30" x="50" y="1150" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_start" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=general;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;" value="Start" vertex="1">
-          <mxGeometry height="40" width="40" x="105" y="1025" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_task_browse" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Browse&#xa;Available Cars" vertex="1">
-          <mxGeometry height="50" width="130" x="200" y="1020" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_task_select" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Select Car &amp; Enter&#xa;Pickup / Return Dates" vertex="1">
-          <mxGeometry height="50" width="140" x="400" y="1020" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_gw_avail" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Car&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Available?&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
-          <mxGeometry height="50" width="50" x="605" y="1020" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_end_unavail" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Car&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Unavailable&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
-          <mxGeometry height="36" width="36" x="612" y="960" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_task_pay" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Enter Payment&#xa;Details" vertex="1">
-          <mxGeometry height="50" width="130" x="730" y="1020" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_task_confirm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="View Rental&#xa;Confirmation" vertex="1">
-          <mxGeometry height="50" width="130" x="1060" y="1020" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_end" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=terminate;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#000000;strokeColor=#000000;fontColor=#000000;fontSize=10;" value="Rental&#xa;Active" vertex="1">
-          <mxGeometry height="40" width="40" x="1270" y="1025" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_svc_avail" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Check Car Availability&#xa;Status in DB" vertex="1">
-          <mxGeometry height="50" width="140" x="400" y="1195" as="geometry" />
-        </mxCell>
-        <mxCell id="y3PpBhryoS_fCklv0Qws-5" edge="1" parent="1" source="cr_gw_pay" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cr_gw_par" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_gw_pay" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Payment&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;OK?&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
-          <mxGeometry height="50" width="50" x="995" y="1195" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_svc_mark" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Mark Car as&#xa;Unavailable in DB" vertex="1">
-          <mxGeometry height="50" width="130" x="1230" y="1170" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_svc_gps" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Activate GPS Route&#xa;for Rented Car" vertex="1">
-          <mxGeometry height="50" width="130" x="1230" y="1240" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_gw_par_merge" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=parallelGw;" value="" vertex="1">
-          <mxGeometry height="50" width="50" x="1430" y="1195" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_end_fail" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="Payment&#xa;Failed" vertex="1">
-          <mxGeometry height="36" width="36" x="1002" y="1300" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_sf01" edge="1" parent="1" source="cr_start" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="cr_task_browse">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_sf02" edge="1" parent="1" source="cr_task_browse" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="cr_task_select">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_sf03" edge="1" parent="1" source="cr_task_select" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="cr_svc_avail">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_sf04" edge="1" parent="1" source="cr_svc_price" style="edgeStyle=orthogonalEdgeStyle;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="1070" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_sf05" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;" value="No">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="1020" as="sourcePoint" />
-            <mxPoint x="629.85" y="990" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_sf06" edge="1" parent="1" source="cr_gw_avail" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.982;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;" target="cr_task_pay" value="Yes">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="1045" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_sf07" edge="1" parent="1" source="cr_svc_avail" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="cr_svc_price">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_sf08" edge="1" parent="1" source="cr_task_pay" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="cr_svc_pay">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_sf09" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="925" y="1220" as="sourcePoint" />
-            <mxPoint x="995" y="1220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_sf10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;" value="Yes">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1045" y="1220" as="sourcePoint" />
-            <mxPoint x="1115" y="1220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_sf11" edge="1" parent="1" source="cr_gw_pay" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" value="No">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1020" y="1250" as="sourcePoint" />
-            <mxPoint x="1020" y="1300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_sf12" edge="1" parent="1" source="cr_gw_par" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;" target="cr_svc_mark">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_sf13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="cr_svc_gps">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1170" y="1220" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_sf14" edge="1" parent="1" source="cr_svc_mark" style="edgeStyle=orthogonalEdgeStyle;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1430" y="1220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_sf15" edge="1" parent="1" source="cr_svc_gps" style="edgeStyle=orthogonalEdgeStyle;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1395" y="1265" />
-              <mxPoint x="1395" y="1220" />
-            </Array>
-            <mxPoint x="1430" y="1220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_sf16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1140" y="1220" />
-              <mxPoint x="1140" y="1090" />
-              <mxPoint x="1125" y="1090" />
-            </Array>
-            <mxPoint x="1430" y="1220" as="sourcePoint" />
-            <mxPoint x="1124.9996969696974" y="1069.97" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_sf17" edge="1" parent="1" source="cr_task_confirm" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="cr_end">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p3_frame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;strokeWidth=3;" value="" vertex="1">
-          <mxGeometry height="410" width="1350" x="20" y="1460" as="geometry" />
-        </mxCell>
-        <mxCell id="p3_title" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=13;" value="POOL: DRIVER TICKET VALIDATION" vertex="1">
-          <mxGeometry height="410" width="30" x="20" y="1460" as="geometry" />
-        </mxCell>
-        <mxCell id="p3_l1_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1f5e1;strokeColor=#82b366;" value="" vertex="1">
-          <mxGeometry height="200" width="1320" x="50" y="1460" as="geometry" />
-        </mxCell>
-        <mxCell id="p3_l1_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="Driver" vertex="1">
-          <mxGeometry height="200" width="30" x="50" y="1460" as="geometry" />
-        </mxCell>
-        <mxCell id="p3_l2_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
-          <mxGeometry height="210" width="1320" x="50" y="1660" as="geometry" />
-        </mxCell>
-        <mxCell id="p3_l2_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="TravelFlow System" vertex="1">
-          <mxGeometry height="210" width="30" x="50" y="1660" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_start" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=general;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;" value="Start" vertex="1">
-          <mxGeometry height="40" width="40" x="105" y="1540" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_task_login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1f5e1;strokeColor=#82b366;fontSize=11;" value="Login as Driver&#xa;(driver@travelflow.al)" vertex="1">
-          <mxGeometry height="50" width="140" x="200" y="1535" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_task_scan" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1f5e1;strokeColor=#82b366;fontSize=11;" value="Scan QR Code&#xa;or Enter TRF-XXXXXX" vertex="1">
-          <mxGeometry height="50" width="140" x="420" y="1535" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_task_result" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1f5e1;strokeColor=#82b366;fontSize=11;" value="View Validation&#xa;Result (✅ / ❌)" vertex="1">
-          <mxGeometry height="50" width="140" x="780" y="1535" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_task_log" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1f5e1;strokeColor=#82b366;fontSize=11;" value="View Validated&#xa;Passengers List" vertex="1">
-          <mxGeometry height="50" width="140" x="1000" y="1535" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_end" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=terminate;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#000000;strokeColor=#000000;fontColor=#000000;fontSize=10;" value="Validation&#xa;Done" vertex="1">
-          <mxGeometry height="40" width="40" x="1215" y="1540" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_svc_auth" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Authenticate Driver&#xa;Role (DB lookup)" vertex="1">
-          <mxGeometry height="50" width="140" x="200" y="1710" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_gw_found" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Code&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Found?&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
-          <mxGeometry height="50" width="50" x="620" y="1710" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_end_notfound" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="Ticket Not&#xa;Found" vertex="1">
-          <mxGeometry height="36" width="36" x="627" y="1800" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_gw_used" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Already&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Validated?&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
-          <mxGeometry height="50" width="50" x="730" y="1710" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_end_used" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Already&#xa;Scanned" vertex="1">
-          <mxGeometry height="36" width="36" x="737" y="1800" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_svc_validate" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Mark Ticket as&#xa;Validated (DB)" vertex="1">
-          <mxGeometry height="50" width="140" x="860" y="1710" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_svc_log" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Append to Session&#xa;Validated List" vertex="1">
-          <mxGeometry height="50" width="140" x="1070" y="1710" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_sf01" edge="1" parent="1" source="drv_start" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="drv_task_login">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_sf02" edge="1" parent="1" source="drv_task_login" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="drv_svc_auth">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_sf03" edge="1" parent="1" source="drv_svc_auth" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="drv_task_scan">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_sf04" edge="1" parent="1" source="drv_task_scan" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="drv_svc_lookup">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_sf05" edge="1" parent="1" source="drv_svc_lookup" style="edgeStyle=orthogonalEdgeStyle;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="1735" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="drv_sf06" edge="1" parent="1" style="html=1;exitX=0.516;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" value="No">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="644.5699999999997" y="1760" as="sourcePoint" />
-            <mxPoint x="645.42" y="1808.9500000000003" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="drv_sf07" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.023;entryY=0.486;entryDx=0;entryDy=0;entryPerimeter=0;" target="drv_gw_used" value="Yes">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="670" y="1735" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="drv_sf08" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;" value="Yes">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="754.82" y="1760.0000000000002" as="sourcePoint" />
-            <mxPoint x="755" y="1810" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="drv_sf09" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="drv_svc_validate" value="No">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="780" y="1735" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="drv_sf10" edge="1" parent="1" source="drv_svc_validate" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="drv_svc_log">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_sf11" edge="1" parent="1" source="drv_svc_validate" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="drv_task_result">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_sf12" edge="1" parent="1" source="drv_svc_log" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="drv_task_log">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_sf13" edge="1" parent="1" source="drv_task_log" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="drv_end">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p4_frame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=3;" value="" vertex="1">
-          <mxGeometry height="330" width="1200" x="20" y="1930" as="geometry" />
-        </mxCell>
-        <mxCell id="p4_title" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=13;" value="POOL: GPS LIVE TRACKING" vertex="1">
-          <mxGeometry height="300" width="30" x="20" y="1960" as="geometry" />
-        </mxCell>
-        <mxCell id="p4_l1_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
-          <mxGeometry height="170" width="1170" x="50" y="1930" as="geometry" />
-        </mxCell>
-        <mxCell id="p4_l1_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="System (Real-time)" vertex="1">
-          <mxGeometry height="140" width="30" x="50" y="1960" as="geometry" />
-        </mxCell>
-        <mxCell id="p4_l2_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#9673a6;" value="" vertex="1">
-          <mxGeometry height="160" width="1170" x="50" y="2100" as="geometry" />
-        </mxCell>
-        <mxCell id="p4_l2_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="User (Customer/Admin)" vertex="1">
-          <mxGeometry height="160" width="30" x="50" y="2100" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_start" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=general;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;" value="Start" vertex="1">
-          <mxGeometry height="40" width="40" x="105" y="1990" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_svc_poll" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Poll Bus GPS&#xa;every 2 seconds" vertex="1">
-          <mxGeometry height="50" width="130" x="200" y="1985" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_svc_map" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Update Marker&#xa;on Google Map" vertex="1">
-          <mxGeometry height="50" width="130" x="610" y="1985" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_svc_sidebar" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Update Sidebar&#xa;(Bus List + Progress)" vertex="1">
-          <mxGeometry height="50" width="140" x="810" y="1985" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_gw_loop" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="Tracking&#xa;Active?" vertex="1">
-          <mxGeometry height="50" width="50" x="1020" y="1985" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_end" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=terminate;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#000000;strokeColor=#000000;fontColor=#000000;fontSize=10;" value="Tracking&#xa;Stopped" vertex="1">
-          <mxGeometry height="40" width="40" x="1145" y="1990" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_user_view" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#f5f5f5;strokeColor=#9673a6;fontSize=11;" value="View Live Map&#xa;(Navigate to /track)" vertex="1">
-          <mxGeometry height="50" width="140" x="400" y="2130" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_user_click" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#f5f5f5;strokeColor=#9673a6;fontSize=11;" value="Click Bus Marker&#xa;→ Focus &amp; Info Popup" vertex="1">
-          <mxGeometry height="50" width="140" x="610" y="2130" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_f01" edge="1" parent="1" source="gps_start" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_svc_poll">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_f02" edge="1" parent="1" source="gps_svc_poll" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_svc_interp">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_f03" edge="1" parent="1" source="gps_svc_interp" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_svc_map">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_f04" edge="1" parent="1" source="gps_svc_map" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_svc_sidebar">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_f05" edge="1" parent="1" source="gps_svc_sidebar" style="edgeStyle=orthogonalEdgeStyle;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1020" y="2010" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gps_f06" edge="1" parent="1" source="gps_gw_loop" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.498;exitY=0.002;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="gps_svc_poll" value="Yes (loop)">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1045" y="1960" />
-              <mxPoint x="265" y="1960" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gps_f07" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_end" value="No">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1070" y="2010" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gps_f08" edge="1" parent="1" source="gps_svc_map" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="gps_user_view">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_f09" edge="1" parent="1" source="gps_user_view" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_user_click">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_svc_interp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Interpolate Position&#xa;(waypoints + %)&#xa;" vertex="1">
-          <mxGeometry height="50" width="140" x="400" y="1985" as="geometry" />
-        </mxCell>
-        <mxCell id="drv_svc_lookup" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Lookup Booking Code&#xa;in DB" vertex="1">
-          <mxGeometry height="50" width="140" x="420" y="1710" as="geometry" />
-        </mxCell>
-        <mxCell id="y3PpBhryoS_fCklv0Qws-4" edge="1" parent="1" source="cr_svc_avail" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="cr_svc_price" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="1220" as="sourcePoint" />
-            <mxPoint x="630" y="1070" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cr_svc_price" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Calculate Total Price&#xa;(Days × Daily Rate)" vertex="1">
-          <mxGeometry height="50" width="130" x="565" y="1195" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_svc_pay" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Validate Card &amp;&#xa;Process Payment" vertex="1">
-          <mxGeometry height="50" width="130" x="800" y="1195" as="geometry" />
-        </mxCell>
-        <mxCell id="cr_gw_par" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=parallelGw;" value="" vertex="1">
-          <mxGeometry height="50" width="50" x="1115" y="1195" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_gw_merge" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;" value="" vertex="1">
-          <mxGeometry height="50" width="50" x="505" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_gw_auth" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="Logged In?" vertex="1">
-          <mxGeometry height="50" width="50" x="200" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_gw_seat" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Seat&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Choice?&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
-          <mxGeometry height="50" width="50" x="1205" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_gw_seat_merge" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;" value="" vertex="1">
-          <mxGeometry height="50" width="50" x="1520" y="295" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_svc_code" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Generate Booking&#xa;Code (TRF-XXXXXX)" vertex="1">
-          <mxGeometry height="50" width="130" x="1845" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_pay_luhn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Luhn Algorithm&#xa;Card Validation" vertex="1">
-          <mxGeometry height="50" width="130" x="1845" y="695" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_pay_proc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Detect Card Type&#xa;(Visa/MC/Amex) &amp; Charge" vertex="1">
-          <mxGeometry height="50" width="130" x="2040" y="695" as="geometry" />
-        </mxCell>
-        <mxCell id="bk_gw_pay" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="Payment&#xa;OK?" vertex="1">
-          <mxGeometry height="50" width="50" x="2230" y="695" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="2YddzSlw-RfmTRoCa50P" name="Page-2">
-    <mxGraphModel dx="1360" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="swimlane;startSize=20;fillColor=none;strokeColor=#666666;dashed=1;fontSize=12;fontColor=#666666;" value="System Boundary" vertex="1">
-          <mxGeometry height="450" width="440" x="130" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="20" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Login / Register" vertex="1">
-          <mxGeometry height="40" width="140" x="160" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="21" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Book Ticket" vertex="1">
-          <mxGeometry height="40" width="140" x="160" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="22" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Track Bus Live" vertex="1">
-          <mxGeometry height="40" width="140" x="160" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="23" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Rent a Car" vertex="1">
-          <mxGeometry height="40" width="140" x="160" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="24" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Tourist Guide" vertex="1">
-          <mxGeometry height="40" width="140" x="160" y="310" as="geometry" />
-        </mxCell>
-        <mxCell id="25" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Validate Ticket" vertex="1">
-          <mxGeometry height="40" width="140" x="160" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="30" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Process Payment" vertex="1">
-          <mxGeometry height="40" width="140" x="390" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="31" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Pick a Seat" vertex="1">
-          <mxGeometry height="40" width="140" x="390" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="32" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Camera Scan" vertex="1">
-          <mxGeometry height="40" width="140" x="390" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="40" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Manage Fleet" vertex="1">
-          <mxGeometry height="40" width="140" x="390" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="41" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="View Bookings" vertex="1">
-          <mxGeometry height="40" width="140" x="390" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="42" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="View Finances" vertex="1">
-          <mxGeometry height="40" width="140" x="390" y="310" as="geometry" />
-        </mxCell>
-        <mxCell id="43" parent="1" style="ellipse;fillColor=#c07000;strokeColor=#c07000;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Fleet Maintenance" vertex="1">
-          <mxGeometry height="40" width="140" x="390" y="350" as="geometry" />
-        </mxCell>
-        <mxCell id="50" edge="1" parent="1" style="edgeStyle=none;" target="20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="205.55555555555543" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="51" edge="1" parent="1" style="edgeStyle=none;" target="21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="212.22222222222217" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="52" edge="1" parent="1" style="edgeStyle=none;" target="22">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="218.8888888888889" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="53" edge="1" parent="1" style="edgeStyle=none;" target="23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="225.55555555555543" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="54" edge="1" parent="1" style="edgeStyle=none;" target="24">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="232.22222222222217" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="55" edge="1" parent="1" style="edgeStyle=none;" target="40">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="205.55555555555566" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="56" edge="1" parent="1" style="edgeStyle=none;" target="41">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="225.55555555555566" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="57" edge="1" parent="1" style="edgeStyle=none;" target="42">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="232.22222222222217" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="58" edge="1" parent="1" style="edgeStyle=none;" target="43">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="236.66666666666674" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="59" edge="1" parent="1" style="edgeStyle=none;" target="25">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="410" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="60" edge="1" parent="1" source="21" style="edgeStyle=none;dashed=1;endArrow=open;fontSize=10;" target="31" value="&lt;&lt;extend&gt;&gt;&#xa;{if seat not chosen}">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="61" edge="1" parent="1" source="21" style="edgeStyle=none;dashed=1;endArrow=open;fontSize=10;" target="30" value="&lt;&lt;include&gt;&gt;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="62" edge="1" parent="1" source="23" style="edgeStyle=none;dashed=1;endArrow=open;fontSize=10;" target="30" value="&lt;&lt;include&gt;&gt;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="63" edge="1" parent="1" source="25" style="edgeStyle=none;dashed=1;endArrow=open;fontSize=10;" target="32" value="&lt;&lt;extend&gt;&gt;&#xa;{if QR available}">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ixiNG-nTuYxF__W7c9vT-66" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="ADMIN&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="630" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="ixiNG-nTuYxF__W7c9vT-67" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CLIENT" vertex="1">
-          <mxGeometry height="60" width="30" x="35" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="ixiNG-nTuYxF__W7c9vT-71" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="DRIVER&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="50" y="380" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="WJ--cMIeUhCmbyzECl1r" name="Page-3">
-    <mxGraphModel dx="1360" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
+<mxGraphModel dx="6290" dy="3300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="legend_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;verticalAlign=top;" value="LEGEND" vertex="1">
+      <mxGeometry height="160" width="380" x="20" y="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_start" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=general;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;" value="Start Event" vertex="1">
+      <mxGeometry height="36" width="36" x="40" y="60" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_end" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=terminate;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#000000;strokeColor=#000000;fontColor=#000000;" value="End Event" vertex="1">
+      <mxGeometry height="36" width="36" x="120" y="60" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_err" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" value="Error End" vertex="1">
+      <mxGeometry height="36" width="36" x="200" y="60" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_gw" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;" value="Excl. GW" vertex="1">
+      <mxGeometry height="46" width="46" x="275" y="55" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_par" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=parallelGw;verticalLabelPosition=bottom;verticalAlign=top;" value="Parallel GW" vertex="1">
+      <mxGeometry height="46" width="46" x="345" y="55" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_utask" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;" value="User Task" vertex="1">
+      <mxGeometry height="36" width="90" x="40" y="130" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_stask" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;" value="Service Task" vertex="1">
+      <mxGeometry height="36" width="90" x="148" y="130" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_ptask" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Payment Task" vertex="1">
+      <mxGeometry height="36" width="90" x="256" y="130" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_frame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;strokeWidth=3;" value="" vertex="1">
+      <mxGeometry height="640" width="2360" x="20" y="220" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_title" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=13;" value="POOL: TICKET BOOKING PROCESS" vertex="1">
+      <mxGeometry height="640" width="30" x="20" y="220" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_l1_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+      <mxGeometry height="200" width="2330" x="50" y="220" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_l1_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="Customer" vertex="1">
+      <mxGeometry height="200" width="30" x="50" y="220" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_l2_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; " vertex="1">
+      <mxGeometry height="210" width="2330" x="50" y="420" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_l2_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="TravelFlow System" vertex="1">
+      <mxGeometry height="210" width="30" x="50" y="420" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_l3_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+      <mxGeometry height="230" width="2330" x="50" y="630" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_l3_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="Payment Gateway" vertex="1">
+      <mxGeometry height="230" width="30" x="50" y="630" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_start" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=general;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;" value="Start" vertex="1">
+      <mxGeometry height="40" width="40" x="105" y="300" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_task_pick" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Pick Specific Seat&#xa;(+200 ALL)" vertex="1">
+      <mxGeometry height="50" width="130" x="1325" y="265" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_task_random" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Random Seat&#xa;(Auto-assigned, Free)" vertex="1">
+      <mxGeometry height="50" width="130" x="1325" y="330" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_end" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=terminate;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#000000;strokeColor=#000000;fontColor=#000000;fontSize=10;" value="Booking&#xa;Complete" vertex="1">
+      <mxGeometry height="40" width="40" x="2295" y="300" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_svc_auth" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Validate User&#xa;Credentials (DB)" vertex="1">
+      <mxGeometry height="50" width="130" x="310" y="465" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_svc_trips" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Query Available&#xa;Trips (DB)" vertex="1">
+      <mxGeometry height="50" width="130" x="615" y="465" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_svc_stops" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Load Stop Options&#xa;&amp; Prices" vertex="1">
+      <mxGeometry height="50" width="130" x="810" y="465" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_svc_seats" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Check Seat&#xa;Availability on Bus" vertex="1">
+      <mxGeometry height="50" width="130" x="1010" y="465" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_svc_seatmap" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Render Bus Seat Map&#xa;(40 seats visual)" vertex="1">
+      <mxGeometry height="50" width="130" x="1325" y="465" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_svc_db" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Store Booking&#xa;Record in DB" vertex="1">
+      <mxGeometry height="50" width="130" x="2040" y="465" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_svc_email" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Send Ticket Email&#xa;(EmailJS + Barcode)" vertex="1">
+      <mxGeometry height="50" width="130" x="2220" y="465" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_gw_pay" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="Payment&#xa;OK?" vertex="1">
+      <mxGeometry height="50" width="50" x="2230" y="695" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_end_fail" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="Payment&#xa;Failed" vertex="1">
+      <mxGeometry height="40" width="35" x="2335" y="680" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_int_retry" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Re-enter Card&#xa;Details" vertex="1">
+      <mxGeometry height="50" width="130" x="2230" y="780" as="geometry" />
+    </mxCell>
+    <mxCell id="sf01" edge="1" parent="1" source="bk_start" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="200" y="320" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="sf02" edge="1" parent="1" source="bk_gw_auth" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="bk_task_login" value="No">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf03" edge="1" parent="1" source="bk_gw_auth" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=-0.005;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" target="bk_gw_merge" value="Yes">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="510" y="320" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="sf04" edge="1" parent="1" source="bk_task_login" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bk_svc_auth">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf05" edge="1" parent="1" source="bk_svc_auth" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="bk_gw_merge">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf06" edge="1" parent="1" source="bk_gw_merge" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_task_search">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf07" edge="1" parent="1" source="bk_task_search" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bk_svc_trips">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf08" edge="1" parent="1" source="bk_svc_trips" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="bk_task_trip">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf09" edge="1" parent="1" source="bk_task_trip" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bk_svc_stops">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf10" edge="1" parent="1" source="bk_svc_stops" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="bk_task_stop">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf11" edge="1" parent="1" source="bk_task_stop" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bk_svc_seats">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf12" edge="1" parent="1" source="bk_svc_seats" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_svc_seatmap">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf13" edge="1" parent="1" source="bk_svc_seats" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="bk_gw_seat">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf14" edge="1" parent="1" source="bk_gw_seat" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;entryX=0;entryY=0.5;" target="bk_task_pick" value="">
+      <mxGeometry relative="1" x="0.0003" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="sf15" edge="1" parent="1" source="bk_gw_seat" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="bk_task_random" value="">
+      <mxGeometry relative="1" x="-0.2308" y="40" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="sf16" edge="1" parent="1" source="bk_task_pick" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_gw_seat_merge">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf17" edge="1" parent="1" source="bk_task_random" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=-0.005;entryY=0.505;entryDx=0;entryDy=0;entryPerimeter=0;" target="bk_gw_seat_merge">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf18" edge="1" parent="1" source="bk_gw_seat_merge" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_task_review">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf19" edge="1" parent="1" source="bk_task_review" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_task_card">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf20" edge="1" parent="1" source="bk_task_card" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bk_pay_luhn">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf21" edge="1" parent="1" source="bk_pay_luhn" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_pay_proc">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf22" edge="1" parent="1" source="bk_pay_proc" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0.008;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" target="bk_gw_pay">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;curved=0;entryX=0.286;entryY=0.568;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;" target="bk_end_fail" value="No">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="2280" y="720" as="sourcePoint" />
+        <mxPoint x="2340" y="720" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="sf24" edge="1" parent="1" source="bk_gw_pay" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.499;exitY=0.997;entryX=1;entryY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="bk_int_retry" value="Retry">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf25" edge="1" parent="1" source="bk_int_retry" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=1;" target="bk_task_card">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1840" y="805" />
+          <mxPoint x="1840" y="370" />
+          <mxPoint x="1910" y="370" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="sf26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;entryX=0.5;entryY=1;" target="bk_svc_code" value="Yes">
+      <mxGeometry relative="1" x="-0.1619" as="geometry">
+        <mxPoint as="offset" />
+        <mxPoint x="2230" y="720" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="sf27" edge="1" parent="1" source="bk_svc_code" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_svc_db">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf28" edge="1" parent="1" source="bk_svc_db" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bk_svc_email">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf29" edge="1" parent="1" source="bk_svc_email" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="bk_task_ticket">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="sf30" edge="1" parent="1" source="bk_task_ticket" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="2300" y="320" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="p2_frame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d6b656;strokeWidth=3;" value="" vertex="1">
+      <mxGeometry height="430" width="1700" x="20" y="940" as="geometry" />
+    </mxCell>
+    <mxCell id="p2_title" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=13;" value="POOL: CAR RENTAL PROCESS" vertex="1">
+      <mxGeometry height="430" width="30" x="20" y="940" as="geometry" />
+    </mxCell>
+    <mxCell id="p2_l1_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+      <mxGeometry height="210" width="1670" x="50" y="940" as="geometry" />
+    </mxCell>
+    <mxCell id="p2_l1_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="Customer" vertex="1">
+      <mxGeometry height="210" width="30" x="50" y="940" as="geometry" />
+    </mxCell>
+    <mxCell id="p2_l2_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+      <mxGeometry height="220" width="1670" x="50" y="1150" as="geometry" />
+    </mxCell>
+    <mxCell id="p2_l2_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="TravelFlow System" vertex="1">
+      <mxGeometry height="220" width="30" x="50" y="1150" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_start" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=general;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;" value="Start" vertex="1">
+      <mxGeometry height="40" width="40" x="105" y="1025" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_task_browse" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Browse&#xa;Available Cars" vertex="1">
+      <mxGeometry height="50" width="130" x="200" y="1020" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_task_select" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Select Car &amp; Enter&#xa;Pickup / Return Dates" vertex="1">
+      <mxGeometry height="50" width="140" x="400" y="1020" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_gw_avail" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Car&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Available?&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
+      <mxGeometry height="50" width="50" x="605" y="1020" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_end_unavail" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=center;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Car&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Unavailable&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
+      <mxGeometry height="36" width="36" x="612" y="960" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_task_pay" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Enter Payment&#xa;Details" vertex="1">
+      <mxGeometry height="50" width="130" x="730" y="1020" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_task_confirm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="View Rental&#xa;Confirmation" vertex="1">
+      <mxGeometry height="50" width="130" x="1060" y="1020" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_end" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=terminate;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#000000;strokeColor=#000000;fontColor=#000000;fontSize=10;" value="Rental&#xa;Active" vertex="1">
+      <mxGeometry height="40" width="40" x="1270" y="1025" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_svc_avail" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Check Car Availability&#xa;Status in DB" vertex="1">
+      <mxGeometry height="50" width="140" x="400" y="1195" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_svc_pay" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Validate Card &amp;&#xa;Process Payment" vertex="1">
+      <mxGeometry height="50" width="130" x="800" y="1195" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_svc_mark" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Mark Car as&#xa;Unavailable in DB" vertex="1">
+      <mxGeometry height="50" width="130" x="1230" y="1170" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_svc_gps" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Activate GPS Route&#xa;for Rented Car" vertex="1">
+      <mxGeometry height="50" width="130" x="1230" y="1240" as="geometry" />
+    </mxCell>
+    <mxCell id="JIoP4qOO59BbhEI_LSHo-1" edge="1" parent="1" source="cr_gw_par_merge" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1454.9220779220777" y="1220.025974025974" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="cr_gw_par_merge" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=parallelGw;" value="" vertex="1">
+      <mxGeometry height="50" width="50" x="1430" y="1195" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_end_fail" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="Payment&#xa;Failed" vertex="1">
+      <mxGeometry height="36" width="36" x="997" y="1300" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_sf01" edge="1" parent="1" source="cr_start" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="cr_task_browse">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_sf02" edge="1" parent="1" source="cr_task_browse" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="cr_task_select">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_sf03" edge="1" parent="1" source="cr_task_select" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="cr_svc_avail">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_sf04" edge="1" parent="1" source="cr_svc_avail" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="630" y="1070" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="cr_sf05" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;" target="cr_end_unavail" value="No">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="630" y="1020" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="cr_sf06" edge="1" parent="1" source="cr_gw_avail" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.006;exitY=0.498;exitDx=0;exitDy=0;exitPerimeter=0;" target="cr_task_pay" value="Yes">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_sf07" edge="1" parent="1" source="cr_svc_avail" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="cr_svc_price">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_sf08" edge="1" parent="1" source="cr_task_pay" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="cr_svc_pay">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_sf09" edge="1" parent="1" source="cr_svc_pay" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=-0.005;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="cr_gw_pay">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="990" y="1220" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="cr_sf10" edge="1" parent="1" source="cr_gw_pay" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1.003;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.008;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;" target="cr_gw_par" value="Yes">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1050" y="1220" as="sourcePoint" />
+        <mxPoint x="1110" y="1220" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="cr_sf11" edge="1" parent="1" source="cr_gw_pay" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="cr_end_fail" value="No">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_sf12" edge="1" parent="1" source="cr_gw_par" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;" target="cr_svc_mark">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_sf13" edge="1" parent="1" source="cr_gw_par" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;" target="cr_svc_gps">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_sf14" edge="1" parent="1" source="cr_svc_mark" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1430" y="1220" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="cr_sf15" edge="1" parent="1" source="cr_svc_gps" style="edgeStyle=orthogonalEdgeStyle;html=1;elbow=vertical;">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1430" y="1265" />
+        </Array>
+        <mxPoint x="1430" y="1220" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="cr_sf16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="cr_task_confirm">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1430" y="1220" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="cr_sf17" edge="1" parent="1" source="cr_task_confirm" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="cr_end">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="p3_frame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;strokeWidth=3;" value="" vertex="1">
+      <mxGeometry height="410" width="1350" x="20" y="1460" as="geometry" />
+    </mxCell>
+    <mxCell id="p3_title" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=13;" value="POOL: DRIVER TICKET VALIDATION" vertex="1">
+      <mxGeometry height="410" width="30" x="20" y="1460" as="geometry" />
+    </mxCell>
+    <mxCell id="p3_l1_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1f5e1;strokeColor=#82b366;" value="" vertex="1">
+      <mxGeometry height="200" width="1320" x="50" y="1460" as="geometry" />
+    </mxCell>
+    <mxCell id="p3_l1_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="Driver" vertex="1">
+      <mxGeometry height="200" width="30" x="50" y="1460" as="geometry" />
+    </mxCell>
+    <mxCell id="p3_l2_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+      <mxGeometry height="210" width="1320" x="50" y="1660" as="geometry" />
+    </mxCell>
+    <mxCell id="p3_l2_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="TravelFlow System" vertex="1">
+      <mxGeometry height="210" width="30" x="50" y="1660" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_start" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=general;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;" value="Start" vertex="1">
+      <mxGeometry height="40" width="40" x="105" y="1540" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_task_login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1f5e1;strokeColor=#82b366;fontSize=11;" value="Login as Driver&#xa;(driver@travelflow.al)" vertex="1">
+      <mxGeometry height="50" width="140" x="200" y="1535" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_task_scan" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1f5e1;strokeColor=#82b366;fontSize=11;" value="Scan QR Code&#xa;or Enter TRF-XXXXXX" vertex="1">
+      <mxGeometry height="50" width="140" x="420" y="1535" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_task_result" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1f5e1;strokeColor=#82b366;fontSize=11;" value="View Validation&#xa;Result (✅ / ❌)" vertex="1">
+      <mxGeometry height="50" width="140" x="780" y="1535" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_task_log" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1f5e1;strokeColor=#82b366;fontSize=11;" value="View Validated&#xa;Passengers List" vertex="1">
+      <mxGeometry height="50" width="140" x="1000" y="1535" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_end" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=terminate;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#000000;strokeColor=#000000;fontColor=#000000;fontSize=10;" value="Validation&#xa;Done" vertex="1">
+      <mxGeometry height="40" width="40" x="1215" y="1540" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_svc_auth" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Authenticate Driver&#xa;Role (DB lookup)" vertex="1">
+      <mxGeometry height="50" width="140" x="200" y="1710" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_gw_found" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Code&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Found?&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
+      <mxGeometry height="50" width="50" x="620" y="1710" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_end_notfound" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="Ticket Not&#xa;Found" vertex="1">
+      <mxGeometry height="36" width="36" x="627" y="1800" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_end_used" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=error;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Already&#xa;Scanned" vertex="1">
+      <mxGeometry height="36" width="36" x="737" y="1800" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_svc_validate" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Mark Ticket as&#xa;Validated (DB)" vertex="1">
+      <mxGeometry height="50" width="140" x="860" y="1710" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_svc_log" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Append to Session&#xa;Validated List" vertex="1">
+      <mxGeometry height="50" width="140" x="1070" y="1710" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf01" edge="1" parent="1" source="drv_start" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="drv_task_login">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf02" edge="1" parent="1" source="drv_task_login" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="drv_svc_auth">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf03" edge="1" parent="1" source="drv_svc_auth" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="drv_task_scan">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf04" edge="1" parent="1" source="drv_task_scan" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="drv_svc_lookup">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf05" edge="1" parent="1" source="drv_svc_lookup" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="620" y="1735" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="drv_sf06" edge="1" parent="1" source="drv_gw_found" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.502;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="drv_end_notfound" value="No">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf07" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;" value="Yes">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="670" y="1735" as="sourcePoint" />
+        <mxPoint x="730" y="1735" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="drv_sf08" edge="1" parent="1" source="drv_gw_used" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="drv_end_used" value="Yes">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf09" edge="1" parent="1" source="drv_gw_used" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="drv_svc_validate" value="No">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf10" edge="1" parent="1" source="drv_svc_validate" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="drv_svc_log">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf11" edge="1" parent="1" source="drv_svc_validate" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="drv_task_result">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf12" edge="1" parent="1" source="drv_svc_log" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="drv_task_log">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_sf13" edge="1" parent="1" source="drv_task_log" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1220" y="1560" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="p4_frame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9673a6;strokeWidth=3;" value="" vertex="1">
+      <mxGeometry height="320" width="1200" x="20" y="1940" as="geometry" />
+    </mxCell>
+    <mxCell id="p4_title" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=13;" value="POOL: GPS LIVE TRACKING" vertex="1">
+      <mxGeometry height="300" width="30" x="20" y="1960" as="geometry" />
+    </mxCell>
+    <mxCell id="p4_l1_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+      <mxGeometry height="160" width="1170" x="50" y="1940" as="geometry" />
+    </mxCell>
+    <mxCell id="p4_l1_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="System (Real-time)" vertex="1">
+      <mxGeometry height="140" width="30" x="50" y="1960" as="geometry" />
+    </mxCell>
+    <mxCell id="p4_l2_bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#9673a6;" value="" vertex="1">
+      <mxGeometry height="160" width="1170" x="50" y="2100" as="geometry" />
+    </mxCell>
+    <mxCell id="p4_l2_lbl" parent="1" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;rotation=-90;fontStyle=1;fontSize=11;" value="User (Customer/Admin)" vertex="1">
+      <mxGeometry height="160" width="30" x="50" y="2100" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_start" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=general;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;" value="Start" vertex="1">
+      <mxGeometry height="40" width="40" x="105" y="1990" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_svc_poll" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Poll Bus GPS&#xa;every 2 seconds" vertex="1">
+      <mxGeometry height="50" width="130" x="200" y="1985" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_svc_map" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Update Marker&#xa;on Google Map" vertex="1">
+      <mxGeometry height="50" width="130" x="610" y="1985" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_svc_sidebar" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Update Sidebar&#xa;(Bus List + Progress)" vertex="1">
+      <mxGeometry height="50" width="140" x="810" y="1985" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_gw_loop" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="Tracking&#xa;Active?" vertex="1">
+      <mxGeometry height="50" width="50" x="1020" y="1985" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_end" parent="1" style="ellipse;html=1;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.ellipsePerimeter;symbol=terminate;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#000000;strokeColor=#000000;fontColor=#000000;fontSize=10;" value="Tracking&#xa;Stopped" vertex="1">
+      <mxGeometry height="40" width="40" x="1145" y="1990" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_user_view" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#f5f5f5;strokeColor=#9673a6;fontSize=11;" value="View Live Map&#xa;(Navigate to /track)" vertex="1">
+      <mxGeometry height="50" width="140" x="400" y="2130" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_user_click" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#f5f5f5;strokeColor=#9673a6;fontSize=11;" value="Click Bus Marker&#xa;→ Focus &amp; Info Popup" vertex="1">
+      <mxGeometry height="50" width="140" x="610" y="2130" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_f01" edge="1" parent="1" source="gps_start" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_svc_poll">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_f02" edge="1" parent="1" source="gps_svc_poll" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_svc_interp">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_f03" edge="1" parent="1" source="gps_svc_interp" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_svc_map">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_f04" edge="1" parent="1" source="gps_svc_map" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_svc_sidebar">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_f05" edge="1" parent="1" source="gps_svc_sidebar" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1020" y="2010" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="gps_f06" edge="1" parent="1" source="gps_gw_loop" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.516;exitY=0.012;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="gps_svc_poll" value="Yes (loop)">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1046" y="1960" />
+          <mxPoint x="265" y="1960" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="gps_f07" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;" value="No">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1070" y="2010" as="sourcePoint" />
+        <mxPoint x="1150" y="2010" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="gps_f08" edge="1" parent="1" source="gps_svc_map" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="gps_user_view">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_f09" edge="1" parent="1" source="gps_user_view" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="gps_user_click">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="msg01" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;startArrow=ERone;startFill=0;entryX=0.5;entryY=0;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=10;" target="gps_start" value="">
+      <mxGeometry relative="1" x="-0.0026" y="-40" as="geometry">
+        <mxPoint as="offset" />
+        <mxPoint x="2300" y="320" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="bk_task_login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Login / Register" vertex="1">
+      <mxGeometry height="50" width="130" x="310" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="gps_svc_interp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Interpolate Position&#xa;(waypoints + %)&#xa;" vertex="1">
+      <mxGeometry height="50" width="140" x="400" y="1985" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_pay_luhn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Luhn Algorithm&#xa;Card Validation" vertex="1">
+      <mxGeometry height="50" width="130" x="1845" y="695" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_pay_proc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="Detect Card Type&#xa;(Visa/MC/Amex) &amp; Charge" vertex="1">
+      <mxGeometry height="50" width="130" x="2040" y="695" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_svc_code" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Generate Booking&#xa;Code (TRF-XXXXXX)" vertex="1">
+      <mxGeometry height="50" width="130" x="1845" y="465" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_task_card" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Enter Card Details&#xa;(Visa / MC / Amex)" vertex="1">
+      <mxGeometry height="50" width="130" x="1845" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_task_review" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Review Booking&#xa;Summary" vertex="1">
+      <mxGeometry height="50" width="130" x="1640" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_gw_seat_merge" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;" value="" vertex="1">
+      <mxGeometry height="50" width="50" x="1520" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_gw_seat" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="Seat&#xa;Choice?" vertex="1">
+      <mxGeometry height="50" width="50" x="1210" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_task_stop" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Select Destination&#xa;Stop &amp; Price" vertex="1">
+      <mxGeometry height="50" width="130" x="1010" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_task_trip" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Select Trip&#xa;(Time / Bus)" vertex="1">
+      <mxGeometry height="50" width="130" x="810" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_gw_merge" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;" value="" vertex="1">
+      <mxGeometry height="50" width="50" x="505" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_gw_auth" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="Logged In?" vertex="1">
+      <mxGeometry height="50" width="50" x="200" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_task_search" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Search Trips&#xa;(City / Date)" vertex="1">
+      <mxGeometry height="50" width="130" x="615" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="bk_task_ticket" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="View Confirmed&#xa;Ticket" vertex="1">
+      <mxGeometry height="50" width="130" x="2090" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_svc_price" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Calculate Total Price&#xa;(Days × Daily Rate)" vertex="1">
+      <mxGeometry height="50" width="130" x="605" y="1195" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_gw_pay" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Payment&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;OK?&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
+      <mxGeometry height="50" width="50" x="995" y="1195" as="geometry" />
+    </mxCell>
+    <mxCell id="cr_gw_par" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=parallelGw;" value="" vertex="1">
+      <mxGeometry height="50" width="50" x="1115" y="1195" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_svc_lookup" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Lookup Booking Code&#xa;in DB" vertex="1">
+      <mxGeometry height="50" width="140" x="420" y="1710" as="geometry" />
+    </mxCell>
+    <mxCell id="drv_gw_used" parent="1" style="rhombus;html=1;whiteSpace=wrap;shape=mxgraph.bpmn.shape;perimeter=mxPerimeter.rhombusPerimeter;background=gateway;symbol=exclusiveGw;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Already&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Validated?&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
+      <mxGeometry height="50" width="50" x="730" y="1710" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
