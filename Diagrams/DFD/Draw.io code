@@ -1,0 +1,844 @@
+<mxGraphModel dx="5413" dy="2538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;" value="TravelFlow — Level 3 Data Flow Diagram (Fixed)" vertex="1">
+      <mxGeometry height="50" width="1600" x="300" y="18" as="geometry" />
+    </mxCell>
+    <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="CLIENT&#xa;(Passenger)" vertex="1">
+      <mxGeometry height="60" width="130" x="30" y="210" as="geometry" />
+    </mxCell>
+    <mxCell id="11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="DRIVER&#xa;(Bus Operator)" vertex="1">
+      <mxGeometry height="60" width="130" x="30" y="2080" as="geometry" />
+    </mxCell>
+    <mxCell id="12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" value="ADMIN" vertex="1">
+      <mxGeometry height="60" width="130" x="30" y="2990" as="geometry" />
+    </mxCell>
+    <mxCell id="20" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="DS1: Users" vertex="1">
+      <mxGeometry height="50" width="160" x="1820" y="380" as="geometry" />
+    </mxCell>
+    <mxCell id="s1" parent="1" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" value="1. USER MANAGEMENT &amp; AUTHENTICATION" vertex="1">
+      <mxGeometry height="30" width="470" x="220" y="110" as="geometry" />
+    </mxCell>
+    <mxCell id="s2" parent="1" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" value="2. TRIP SEARCH &amp; AUTOMATIC GENERATION" vertex="1">
+      <mxGeometry height="30" width="470" x="-390" y="510" as="geometry" />
+    </mxCell>
+    <mxCell id="s3" parent="1" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" value="3. SEAT SELECTION &amp; BOOKING CONFIRMATION" vertex="1">
+      <mxGeometry height="30" width="490" x="-400" y="840" as="geometry" />
+    </mxCell>
+    <mxCell id="s4" parent="1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" value="4. BOOKING HISTORY &amp; CANCELLATION" vertex="1">
+      <mxGeometry height="30" width="430" x="-340" y="1280" as="geometry" />
+    </mxCell>
+    <mxCell id="s5" parent="1" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" value="5. VEHICLE RENTAL" vertex="1">
+      <mxGeometry height="30" width="260" x="-170" y="1590" as="geometry" />
+    </mxCell>
+    <mxCell id="s6" parent="1" style="text;html=1;strokeColor=#006EAF;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" value="6. DRIVER PORTAL &amp; TICKET VALIDATION" vertex="1">
+      <mxGeometry height="30" width="450" x="-360" y="2010" as="geometry" />
+    </mxCell>
+    <mxCell id="s7" parent="1" style="text;html=1;strokeColor=#36393d;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#333333;" value="7. ADMIN PANEL &amp; FLEET MANAGEMENT" vertex="1">
+      <mxGeometry height="30" width="450" x="-370" y="2500" as="geometry" />
+    </mxCell>
+    <mxCell id="709" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="7.9&#xa;View Statistics&#xa;(Read-Only)" vertex="1">
+      <mxGeometry height="70" width="155" x="555" y="2820" as="geometry" />
+    </mxCell>
+    <mxCell id="s8" parent="1" style="text;html=1;strokeColor=#b46504;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;" value="8. VEHICLE MAINTENANCE MANAGEMENT" vertex="1">
+      <mxGeometry height="30" width="430" x="-340" y="2940" as="geometry" />
+    </mxCell>
+    <mxCell id="801" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="8.1&#xa;Load Maintenance&#xa;Schedule" vertex="1">
+      <mxGeometry height="70" width="155" x="200" y="3070" as="geometry" />
+    </mxCell>
+    <mxCell id="802" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" value="8.2&#xa;Identify&#xa;Overdue Services" vertex="1">
+      <mxGeometry height="70" width="155" x="414" y="3220" as="geometry" />
+    </mxCell>
+    <mxCell id="803" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="8.3&#xa;Mark Service&#xa;as Completed" vertex="1">
+      <mxGeometry height="70" width="155" x="740" y="3220" as="geometry" />
+    </mxCell>
+    <mxCell id="805" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="8.5&#xa;Update&#xa;Maintenance Record" vertex="1">
+      <mxGeometry height="70" width="155" x="555" y="3140" as="geometry" />
+    </mxCell>
+    <mxCell id="f101" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="101" value="name, email, password">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f102" edge="1" parent="1" source="101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="102" value="validated user data">
+      <mxGeometry relative="1" x="-0.0909" y="20" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f103" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" value="new user record (role=client)">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="605" y="197.47" as="sourcePoint" />
+        <mxPoint x="1900" y="380" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f104" edge="1" parent="1" source="102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="103" value="user_id, role">
+      <mxGeometry relative="1" x="-0.0909" y="10" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f105" edge="1" parent="1" source="103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="105" value="session request">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f106" edge="1" parent="1" source="103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="welcome toast + auto-redirect">
+      <mxGeometry relative="1" x="0.0545" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f107" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="104" value="email, password">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f108" edge="1" parent="1" source="104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;entryX=0.425;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;" target="20" value="lookup by email">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f109" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="104" value="hashed password + role">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f110" edge="1" parent="1" source="104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="105" value="user_id, role">
+      <mxGeometry relative="1" x="-0.0909" y="-10" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f111" edge="1" parent="1" source="105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="21" value="session token">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f112" edge="1" parent="1" source="105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="106" value="session + role">
+      <mxGeometry relative="1" x="-0.0909" y="10" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f113" edge="1" parent="1" source="106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="permitted nav + pages">
+      <mxGeometry relative="1" x="-0.232" y="-30" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f114" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="107" value="logout request">
+      <mxGeometry relative="1" x="0.0404" y="-10" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f115" edge="1" parent="1" source="107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="21" value="delete session">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f116" edge="1" parent="1" source="107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="session cleared">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f117" edge="1" parent="1" source="104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="invalid credentials error">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f118" edge="1" parent="1" source="101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="validation error">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f201" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="201" value="from, to, date">
+      <mxGeometry relative="1" x="0.133" y="3" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f202" edge="1" parent="1" source="201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="202" value="city pair + date">
+      <mxGeometry relative="1" x="-0.0909" y="-5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f203" edge="1" parent="1" source="202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="22" value="city pair query">
+      <mxGeometry relative="1" y="-5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f204" edge="1" parent="1" source="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="202" value="route_id">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f205" edge="1" parent="1" source="202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="203" value="route_id + date">
+      <mxGeometry relative="1" x="-0.0909" y="-5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f206" edge="1" parent="1" source="203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="23" value="query by route + date">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f207" edge="1" parent="1" source="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="203" value="trip records / empty">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f208" edge="1" parent="1" source="203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="204" value="no trips found → trigger">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f209" edge="1" parent="1" source="204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="23" value="generated trip schedule">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f210" edge="1" parent="1" source="203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="205" value="trip list">
+      <mxGeometry relative="1" x="0.0727" y="-5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f211" edge="1" parent="1" source="205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="trip cards (route, time, price)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f212" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="206" value="selected stop">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f213" edge="1" parent="1" source="206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="22" value="stop details query">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f214" edge="1" parent="1" source="206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="207" value="stop + segment info">
+      <mxGeometry relative="1" x="-0.0909" y="25" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f215" edge="1" parent="1" source="207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="updated price">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f216" edge="1" parent="1" source="201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="validation error (same city)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx204a" edge="1" parent="1" source="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#d79b00;" target="204" value="route + stop config">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx204b" edge="1" parent="1" source="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#d79b00;" target="204" value="available buses">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f301" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="301" value="trip_id selection">
+      <mxGeometry relative="1" x="0.0093" y="3" as="geometry">
+        <mxPoint x="-1" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f302" edge="1" parent="1" source="301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="23" value="capacity query">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f303" edge="1" parent="1" source="301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="302" value="seat layout">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f304" edge="1" parent="1" source="302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="25" value="query occupied seats">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f305" edge="1" parent="1" source="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="302" value="booked seat numbers">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f306" edge="1" parent="1" source="302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="seat map (red=occupied, green=free)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f307" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="303" value="seat number / random flag">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f308" edge="1" parent="1" source="303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="304" value="seat, stop, trip">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f309" edge="1" parent="1" source="304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="ticket + site fee (100 lek) + seat fee">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f310" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="305" value="confirm booking">
+      <mxGeometry relative="1" x="-0.088" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f311" edge="1" parent="1" source="305" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="306" value="booking data">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f312" edge="1" parent="1" source="306" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="307" value="booking_code + data">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f313" edge="1" parent="1" source="307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="24" value="booking record (status=confirmed)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f314" edge="1" parent="1" source="307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="308" value="trip_id, seat_num">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f315" edge="1" parent="1" source="308" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="25" value="add to bookedSeats">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f316" edge="1" parent="1" source="307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="309" value="booking_code">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f317" edge="1" parent="1" source="309" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="confirmation toast + booking code">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f318" edge="1" parent="1" source="305" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="seat conflict error (re-select)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx305a" edge="1" parent="1" source="305" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;strokeColor=#d79b00;" target="25" value="re-verify seat availability">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx305b" edge="1" parent="1" source="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#d79b00;" target="305" value="seat still free / conflict">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f401" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="401" value="user_id">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f402" edge="1" parent="1" source="401" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="24" value="query by user_id">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f403" edge="1" parent="1" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="401" value="booking records">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f404" edge="1" parent="1" source="401" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="402" value="all bookings">
+      <mxGeometry relative="1" x="-0.0909" y="-5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f405" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="402" value="status filter (All/Confirmed/Cancelled)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f406" edge="1" parent="1" source="402" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="403" value="filtered bookings">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f407" edge="1" parent="1" source="403" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="booking cards + digital ticket">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f408" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="404" value="booking_id + cancel intent">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f409" edge="1" parent="1" source="404" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="23" value="check departure time">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f410" edge="1" parent="1" source="404" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="405" value="eligible booking">
+      <mxGeometry relative="1" x="-0.0909" y="-15" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f411" edge="1" parent="1" source="405" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="24" value="status=cancelled">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f412" edge="1" parent="1" source="405" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="406" value="trip_id, seat_num">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f413" edge="1" parent="1" source="406" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="25" value="remove from bookedSeats">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f414" edge="1" parent="1" source="405" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="cancellation confirmed toast">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx404a" edge="1" parent="1" source="404" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;strokeColor=#d79b00;" target="24" value="query booking status">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx404b" edge="1" parent="1" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#d79b00;" target="404" value="booking status + data">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx404e" edge="1" parent="1" source="404" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;strokeColor=#b85450;" target="10" value="cancellation not allowed (trip departed)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f501" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="501" value="browse rentals">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f502" edge="1" parent="1" source="501" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="26" value="query available=1 cars">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f503" edge="1" parent="1" source="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="501" value="car records (available=1)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f504" edge="1" parent="1" source="501" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="502" value="car list">
+      <mxGeometry relative="1" x="-0.0909" y="-10" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f505" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="502" value="category, fuel, transmission filters">
+      <mxGeometry relative="1" x="-0.055" y="12" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f506" edge="1" parent="1" source="502" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="filtered car catalogue">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f507" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="503" value="car_id, pickup date, return date">
+      <mxGeometry relative="1" x="0.0164" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f508" edge="1" parent="1" source="503" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="504" value="pickup + return date">
+      <mxGeometry relative="1" x="0.0726" y="-20" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f509" edge="1" parent="1" source="504" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="505" value="num_days">
+      <mxGeometry relative="1" x="-0.0909" y="-10" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f510" edge="1" parent="1" source="505" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="total price (days × rate)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f511" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="506" value="confirm rental">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f512" edge="1" parent="1" source="506" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="27" value="rental record (status=confirmed)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f513" edge="1" parent="1" source="506" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="507" value="car_id">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f514" edge="1" parent="1" source="507" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="26" value="available=0">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f515" edge="1" parent="1" source="506" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="rental confirmation">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f516" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="508" value="user_id">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f517" edge="1" parent="1" source="508" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="27" value="query by user_id">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f518" edge="1" parent="1" source="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="508" value="rental records">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f519" edge="1" parent="1" source="508" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="rental history (make, dates, price, status)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f520" edge="1" parent="1" source="504" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="10" value="date validation error">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx505a" edge="1" parent="1" source="503" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;strokeColor=#d79b00;" target="26" value="query daily_price for car_id">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx505b" edge="1" parent="1" source="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#d79b00;" target="505" value="daily_price">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f601" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="601" value="email, password">
+      <mxGeometry relative="1" x="-0.1724" y="-10" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f602" edge="1" parent="1" source="601" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="20" value="lookup by email (role=driver)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx601r" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#b85450;" target="601" value="hashed password + bus_id + role">
+      <mxGeometry relative="1" x="0.0224" y="3" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f603" edge="1" parent="1" source="601" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="602" value="bus_id, route assignment">
+      <mxGeometry relative="1" x="-0.0909" y="-25" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f604" edge="1" parent="1" source="602" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="23" value="query trips by bus_id + today">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f605" edge="1" parent="1" source="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="602" value="trip schedule">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f606" edge="1" parent="1" source="602" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="28" value="query bus plate">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx602r" edge="1" parent="1" source="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#b85450;" target="602" value="bus plate + capacity">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f607" edge="1" parent="1" source="602" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="603" value="trips, plate, passenger count">
+      <mxGeometry relative="1" x="-0.0435" y="5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f608" edge="1" parent="1" source="603" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="11" value="driver portal dashboard">
+      <mxGeometry relative="1" x="0.0796" y="-20" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f609" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="604" value="booking code (input)">
+      <mxGeometry relative="1" x="-0.5514" y="10" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f610" edge="1" parent="1" source="604" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="605" value="uppercase normalized code">
+      <mxGeometry relative="1" x="-0.0909" y="-35" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f611" edge="1" parent="1" source="605" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="24" value="query by booking_code">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f612" edge="1" parent="1" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="605" value="booking record / null">
+      <mxGeometry relative="1" x="0.0166" y="12" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f613" edge="1" parent="1" source="605" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="606" value="booking status + data">
+      <mxGeometry relative="1" x="0.1304" y="5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f614" edge="1" parent="1" source="606" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="607" value="confirmed booking data">
+      <mxGeometry relative="1" x="0.027" y="-5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f615" edge="1" parent="1" source="606" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="609" value="already used / not found">
+      <mxGeometry relative="1" x="0.6639" y="2" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f616" edge="1" parent="1" source="607" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="11" value="passenger name, seat, stop, route (GREEN panel)">
+      <mxGeometry relative="1" x="-0.0112" y="-45" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f617" edge="1" parent="1" source="607" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="608" value="booking_id">
+      <mxGeometry relative="1" x="-0.2514" y="-5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f618" edge="1" parent="1" source="608" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="24" value="status=used">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f619" edge="1" parent="1" source="609" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="11" value="ALREADY VALIDATED / NOT FOUND (RED panel)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f701" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="701" value="dashboard request">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f702" edge="1" parent="1" source="701" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="24" value="query: confirmed bookings + revenue">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx702r" edge="1" parent="1" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#b85450;" target="701" value="booking count + total revenue">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f703" edge="1" parent="1" source="701" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="20" value="query: user count">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx703r" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#b85450;" target="701" value="total user count">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f704" edge="1" parent="1" source="701" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="28" value="query: bus count">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx704r" edge="1" parent="1" source="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#b85450;" target="701" value="total bus count">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f705" edge="1" parent="1" source="701" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="27" value="query: active rental count">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx705r" edge="1" parent="1" source="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#b85450;" target="701" value="active rental count">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f706" edge="1" parent="1" source="701" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="12" value="KPI metrics display">
+      <mxGeometry relative="1" x="-0.1071" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f707" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="702" value="code, plate, model, capacity, route, status">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f708" edge="1" parent="1" source="702" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="28" value="new bus record">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f709" edge="1" parent="1" source="702" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="12" value="updated fleet list">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f710" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="703" value="make, model, year, plate, price/day, fuel">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f711" edge="1" parent="1" source="703" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="26" value="new car record (available=1)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f712" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="704" value="name, email, password, bus_id, route">
+      <mxGeometry relative="1" x="0.1858" y="10" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f713" edge="1" parent="1" source="704" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="20" value="user record (role=driver, bus_id, route)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f726" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="705" value="view users request">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f714" edge="1" parent="1" source="705" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="20" value="query all users">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx714r" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#b85450;" target="705" value="user records">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f715" edge="1" parent="1" source="705" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="12" value="user list (name, email, role, reg. date)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f716" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="706" value="view rentals request">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f717" edge="1" parent="1" source="706" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="27" value="query all rentals">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx717r" edge="1" parent="1" source="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#b85450;" target="706" value="rental records">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f718" edge="1" parent="1" source="706" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="12" value="rental records + status">
+      <mxGeometry relative="1" x="-0.2063" y="-5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f719" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="707" value="rental_id: mark returned">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f720" edge="1" parent="1" source="707" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="27" value="status=completed">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f721" edge="1" parent="1" source="707" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="26" value="available=1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx708t" edge="1" parent="1" source="sys_timer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;strokeColor=#d79b00;" target="708" value="scheduled trigger">
+      <mxGeometry relative="1" x="-0.2778" y="-5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f722" edge="1" parent="1" source="708" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="27" value="query overdue confirmed rentals">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f723" edge="1" parent="1" source="708" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="26" value="auto available=1 (overdue)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f727" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="709" value="view statistics request">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f724" edge="1" parent="1" source="709" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="24" value="query booking stats">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx724r" edge="1" parent="1" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#b85450;" target="709" value="aggregated stats (READ ONLY)">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f725" edge="1" parent="1" source="709" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="12" value="statistics panel display">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f801" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="801" value="view maintenance request">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f802" edge="1" parent="1" source="801" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="29" value="query all maintenance records">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f803" edge="1" parent="1" source="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="801" value="service records (lastDate, nextDate, interval)">
+      <mxGeometry relative="1" x="0.0148" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f804" edge="1" parent="1" source="801" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="802" value="all service records">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f805" edge="1" parent="1" source="802" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="12" value="overdue service alerts">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f806" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="803" value="service_type, vehicle_id, mark=completed">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx803a" edge="1" parent="1" source="803" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;strokeColor=#d79b00;" target="29" value="query existing maintenance record">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="fx803b" edge="1" parent="1" source="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;strokeColor=#d79b00;" target="803" value="current service record">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f807" edge="1" parent="1" source="803" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="804" value="lastDate=today, intervalDays">
+      <mxGeometry relative="1" x="-0.0286" y="-5" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="f808" edge="1" parent="1" source="804" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="805" value="nextDate = lastDate + intervalDays">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f809" edge="1" parent="1" source="805" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="29" value="updated lastDate + nextDate">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f810" edge="1" parent="1" source="805" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;" target="12" value="updated maintenance schedule view">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="f811" edge="1" parent="1" source="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=8;dashed=1;" target="801" value="vehicle list for maintenance">
+      <mxGeometry relative="1" x="-0.0187" y="2" as="geometry">
+        <mxPoint x="1" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="ovq1Dz-kIc6lQXa10H5H-951" edge="1" parent="1" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.36;exitY=1;entryX=0;entryY=0.48;rounded=0;" value="">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="94" y="4712" />
+          <mxPoint x="94" y="4737" />
+        </Array>
+        <mxPoint x="108.31701543646523" y="4660.296373441193" as="sourcePoint" />
+        <mxPoint x="3750" y="4801.08" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="204" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="2.4&#xa;AutoTrips&#xa;Generation" vertex="1">
+      <mxGeometry height="70" width="155" x="920" y="590" as="geometry" />
+    </mxCell>
+    <mxCell id="203" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="2.3&#xa;Query&#xa;Trips Table" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="590" as="geometry" />
+    </mxCell>
+    <mxCell id="201" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="2.1&#xa;Validate&#xa;Search Input" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="590" as="geometry" />
+    </mxCell>
+    <mxCell id="206" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="2.6&#xa;Select&#xa;Destination Stop" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="730" as="geometry" />
+    </mxCell>
+    <mxCell id="205" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="2.5&#xa;Display&#xa;Trip Cards" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="730" as="geometry" />
+    </mxCell>
+    <mxCell id="202" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="2.2&#xa;Map City Pair&#xa;→ Route ID" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="590" as="geometry" />
+    </mxCell>
+    <mxCell id="207" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="2.7&#xa;Calculate&#xa;Dynamic Price" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="730" as="geometry" />
+    </mxCell>
+    <mxCell id="301" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="3.1&#xa;Load&#xa;Seat Map" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="890" as="geometry" />
+    </mxCell>
+    <mxCell id="302" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="3.2&#xa;Check Seat&#xa;Availability" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="890" as="geometry" />
+    </mxCell>
+    <mxCell id="303" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="3.3&#xa;Select / Assign&#xa;Seat" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="890" as="geometry" />
+    </mxCell>
+    <mxCell id="304" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="3.4&#xa;Calculate Fee&#xa;Breakdown" vertex="1">
+      <mxGeometry height="70" width="155" x="870" y="890" as="geometry" />
+    </mxCell>
+    <mxCell id="308" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="3.8&#xa;Lock Seat&#xa;in BookedSeats" vertex="1">
+      <mxGeometry height="70" width="155" x="870" y="1030" as="geometry" />
+    </mxCell>
+    <mxCell id="307" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="3.7&#xa;Insert&#xa;Booking Record" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="1030" as="geometry" />
+    </mxCell>
+    <mxCell id="306" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="3.6&#xa;Generate Unique&#xa;Booking Code" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="1030" as="geometry" />
+    </mxCell>
+    <mxCell id="305" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="3.5&#xa;Validate&#xa;Booking Request" vertex="1">
+      <mxGeometry height="70" width="155" x="230" y="1030" as="geometry" />
+    </mxCell>
+    <mxCell id="309" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="3.9&#xa;Send Confirmation&#xa;Toast Notification" vertex="1">
+      <mxGeometry height="70" width="155" x="555" y="1160" as="geometry" />
+    </mxCell>
+    <mxCell id="403" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="4.3&#xa;Render&#xa;Digital Ticket" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="1330" as="geometry" />
+    </mxCell>
+    <mxCell id="402" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="4.2&#xa;Filter Bookings&#xa;by Status" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="1330" as="geometry" />
+    </mxCell>
+    <mxCell id="401" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="4.1&#xa;Retrieve&#xa;User Bookings" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="1330" as="geometry" />
+    </mxCell>
+    <mxCell id="501" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="5.1&#xa;Load Rental&#xa;Catalogue" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="1645" as="geometry" />
+    </mxCell>
+    <mxCell id="404" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="4.4&#xa;Validate&#xa;Cancellation&#xa;Eligibility" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="1470" as="geometry" />
+    </mxCell>
+    <mxCell id="405" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="4.5&#xa;Update Booking&#xa;→ Cancelled" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="1470" as="geometry" />
+    </mxCell>
+    <mxCell id="406" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="4.6&#xa;Release Seat&#xa;from BookedSeats" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="1470" as="geometry" />
+    </mxCell>
+    <mxCell id="503" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="5.3&#xa;Select Car&#xa;&amp; Rental Dates" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="1645" as="geometry" />
+    </mxCell>
+    <mxCell id="502" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="5.2&#xa;Apply&#xa;Car Filters" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="1645" as="geometry" />
+    </mxCell>
+    <mxCell id="505" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="5.5&#xa;Calculate&#xa;Total Rental Price" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="1785" as="geometry" />
+    </mxCell>
+    <mxCell id="504" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="5.4&#xa;Validate&#xa;Date Range" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="1785" as="geometry" />
+    </mxCell>
+    <mxCell id="508" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="5.8&#xa;Retrieve&#xa;Rental History" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="1915" as="geometry" />
+    </mxCell>
+    <mxCell id="506" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="5.6&#xa;Confirm &amp; Insert&#xa;Rental Record" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="1785" as="geometry" />
+    </mxCell>
+    <mxCell id="507" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="5.7&#xa;Set Car&#xa;Available=0" vertex="1">
+      <mxGeometry height="70" width="155" x="870" y="1785" as="geometry" />
+    </mxCell>
+    <mxCell id="101" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="1.1&#xa;Validate&#xa;Registration Input" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="155" as="geometry" />
+    </mxCell>
+    <mxCell id="102" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="1.2&#xa;Create&#xa;User Record" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="155" as="geometry" />
+    </mxCell>
+    <mxCell id="103" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="1.3&#xa;Auto-Login&#xa;After Registration" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="155" as="geometry" />
+    </mxCell>
+    <mxCell id="104" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="1.4&#xa;Validate Login&#xa;Credentials" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="105" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="1.5&#xa;Create &amp; Store&#xa;Session" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="107" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="1.7&#xa;Expire / Clear&#xa;Session (Logout)" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="430" as="geometry" />
+    </mxCell>
+    <mxCell id="106" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="1.6&#xa;Enforce&#xa;RBAC" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="295" as="geometry" />
+    </mxCell>
+    <mxCell id="603" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="6.3&#xa;Display Driver&#xa;Dashboard" vertex="1">
+      <mxGeometry height="70" width="155" x="920" y="2080" as="geometry" />
+    </mxCell>
+    <mxCell id="602" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="6.2&#xa;Load&#xa;Assigned Trips" vertex="1">
+      <mxGeometry height="70" width="155" x="620" y="2080" as="geometry" />
+    </mxCell>
+    <mxCell id="601" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="6.1&#xa;Authenticate&#xa;Driver Role" vertex="1">
+      <mxGeometry height="70" width="155" x="300" y="2080" as="geometry" />
+    </mxCell>
+    <mxCell id="604" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="6.4&#xa;Accept &amp; Parse&#xa;Booking Code" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="2220" as="geometry" />
+    </mxCell>
+    <mxCell id="605" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="6.5&#xa;Query Bookings&#xa;by Code" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="2220" as="geometry" />
+    </mxCell>
+    <mxCell id="606" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="6.6&#xa;Check&#xa;Ticket Status" vertex="1">
+      <mxGeometry height="70" width="155" x="720" y="2220" as="geometry" />
+    </mxCell>
+    <mxCell id="608" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="6.8&#xa;Mark Ticket&#xa;as &#39;used&#39;" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="2360" as="geometry" />
+    </mxCell>
+    <mxCell id="609" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" value="6.9&#xa;Flag Duplicate /&#xa;Invalid Ticket" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="2360" as="geometry" />
+    </mxCell>
+    <mxCell id="607" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="6.7&#xa;Display&#xa;Passenger Info" vertex="1">
+      <mxGeometry height="70" width="155" x="1060" y="2220" as="geometry" />
+    </mxCell>
+    <mxCell id="701" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="7.1&#xa;Aggregate&#xa;KPI Metrics" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="2540" as="geometry" />
+    </mxCell>
+    <mxCell id="702" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="7.2&#xa;Validate &amp; Insert&#xa;Bus Record" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="2540" as="geometry" />
+    </mxCell>
+    <mxCell id="703" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="7.3&#xa;Validate &amp; Insert&#xa;Car Record" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="2540" as="geometry" />
+    </mxCell>
+    <mxCell id="704" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="7.4&#xa;Create Driver&#xa;Account" vertex="1">
+      <mxGeometry height="70" width="155" x="870" y="2540" as="geometry" />
+    </mxCell>
+    <mxCell id="708" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;" value="7.8&#xa;checkRentals&#xa;Automated Job" vertex="1">
+      <mxGeometry height="70" width="155" x="870" y="2680" as="geometry" />
+    </mxCell>
+    <mxCell id="707" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="7.7&#xa;Process&#xa;Vehicle Return" vertex="1">
+      <mxGeometry height="70" width="155" x="660" y="2680" as="geometry" />
+    </mxCell>
+    <mxCell id="706" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="7.6&#xa;View Active/Past&#xa;Rentals" vertex="1">
+      <mxGeometry height="70" width="155" x="450" y="2680" as="geometry" />
+    </mxCell>
+    <mxCell id="705" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="7.5&#xa;View &amp; Filter&#xa;All Users" vertex="1">
+      <mxGeometry height="70" width="155" x="240" y="2680" as="geometry" />
+    </mxCell>
+    <mxCell id="sys_timer" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=10;" value="[System Timer]&#xa;Scheduled Job" vertex="1">
+      <mxGeometry height="50" width="130" x="30" y="2700" as="geometry" />
+    </mxCell>
+    <mxCell id="804" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" value="8.4&#xa;Auto-Calculate&#xa;Next Due Date" vertex="1">
+      <mxGeometry height="70" width="155" x="990" y="3000" as="geometry" />
+    </mxCell>
+    <mxCell id="29" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="DS10: Maintenance" vertex="1">
+      <mxGeometry height="50" width="160" x="3210" y="1520" as="geometry" />
+    </mxCell>
+    <mxCell id="28" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="DS9: Buses" vertex="1">
+      <mxGeometry height="50" width="160" x="3070" y="1420" as="geometry" />
+    </mxCell>
+    <mxCell id="27" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="DS8: Rentals" vertex="1">
+      <mxGeometry height="50" width="160" x="2890" y="1300" as="geometry" />
+    </mxCell>
+    <mxCell id="26" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="DS7: Cars" vertex="1">
+      <mxGeometry height="50" width="160" x="2660" y="1190" as="geometry" />
+    </mxCell>
+    <mxCell id="25" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="DS6: BookedSeats" vertex="1">
+      <mxGeometry height="50" width="160" x="2520" y="1000" as="geometry" />
+    </mxCell>
+    <mxCell id="24" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="DS5: Bookings" vertex="1">
+      <mxGeometry height="50" width="160" x="2310" y="880" as="geometry" />
+    </mxCell>
+    <mxCell id="23" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="DS4: Trips" vertex="1">
+      <mxGeometry height="50" width="160" x="2060" y="750" as="geometry" />
+    </mxCell>
+    <mxCell id="22" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="DS3: Routes &amp; Stops" vertex="1">
+      <mxGeometry height="50" width="160" x="1930" y="600" as="geometry" />
+    </mxCell>
+    <mxCell id="21" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="DS2: Sessions" vertex="1">
+      <mxGeometry height="50" width="160" x="2070" y="450" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
